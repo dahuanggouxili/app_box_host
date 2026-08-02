@@ -1,115 +1,180 @@
 # PrivacyFirewall 广告网络黑名单（国内 + 海外合并）
 # Format: 0.0.0.0 domain
 # Sources: 自维护合并；覆盖国内主流 + 海外主流广告网络（保守）
-# version: 20260801-1
+# version: 20260802-27
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # ===== 字节跳动 / ByteDance (穿山甲 Pangle) =====
-0.0.0.0 pangleglobal.com
-0.0.0.0 pangle.com
-0.0.0.0 pangle.io
+0.0.0.0 ad.toutiao.com
+0.0.0.0 api.toutiao.com
+0.0.0.0 apps.bytesfield-b.com
+0.0.0.0 apps.bytesfield.com
+0.0.0.0 apps.oceanengine.com
 0.0.0.0 byteoversea.com
-0.0.0.0 mon-va.byteoversea.com
-0.0.0.0 pangolin-sdk-toutiao.com
 0.0.0.0 cs.toutiao.com
+0.0.0.0 ctobsnssdk.com
+0.0.0.0 databyterangers.com.cn
 0.0.0.0 dig.bdurl.net
-0.0.0.0 pglstatp-toutiao.com
-0.0.0.0 sf1-ttcdn-tos.pstatp.com
-0.0.0.0 sf3-ttcdn-tos.pstatp.com
-0.0.0.0 is.snssdk.com
+0.0.0.0 dm.toutiao.com
+0.0.0.0 i-hl.snssdk.com
+0.0.0.0 i.snssdk.com
 0.0.0.0 ib.snssdk.com
 0.0.0.0 ic.snssdk.com
-0.0.0.0 i.snssdk.com
+0.0.0.0 is.snssdk.com
 0.0.0.0 log.snssdk.com
-0.0.0.0 api.toutiao.com
-0.0.0.0 ad.toutiao.com
-0.0.0.0 dm.toutiao.com
+0.0.0.0 mon-va.byteoversea.com
 0.0.0.0 p3-ad-sign.toutiaoimg.com
 0.0.0.0 p6-ad-sign.toutiaoimg.com
 0.0.0.0 p9-ad-sign.toutiaoimg.com
+0.0.0.0 pangle.com
+0.0.0.0 pangle.io
+0.0.0.0 pangleglobal.com
+0.0.0.0 pangolin-sdk-toutiao-b.com
+0.0.0.0 pangolin-sdk-toutiao.com
+0.0.0.0 pangolin-sdk-toutiao1.com
+0.0.0.0 pangolin.snssdk.com
+0.0.0.0 pglstatp-toutiao.com
+0.0.0.0 phoniex.toutiao.com
+0.0.0.0 scc.bytedance.com
+0.0.0.0 sf1-amtos-cdn.bytesmanager.com
+0.0.0.0 sf1-ttcdn-tos.pstatp.com
+0.0.0.0 sf3-ttcdn-tos.pstatp.com
+0.0.0.0 www.csjplatform.com
+# 穿山甲 视频轮播/可玩广告 CDN 与日志
+0.0.0.0 cdn-tos-cn.bytedance.net
+0.0.0.0 applog.snssdk.com
+0.0.0.0 ichannel.snssdk.com
+0.0.0.0 rtapplog.snssdk.com
+0.0.0.0 rtlog.snssdk.com
+0.0.0.0 abtest-ch.snssdk.com
+# 穿山甲视频广告流媒体 CDN（HTTPDNS，DNS 拦截为尽力而为）
+0.0.0.0 douyincdn.com
+0.0.0.0 douyinliving.com
+0.0.0.0 etoote.com
+0.0.0.0 bytescm.com
+0.0.0.0 douyinpic.com
 
 # ===== 腾讯广点通 / Tencent GDT =====
-0.0.0.0 e.qq.com
-0.0.0.0 ads.qq.com
 0.0.0.0 ad.qq.com
-0.0.0.0 gdt.qq.com
-0.0.0.0 qqad.qq.com
-0.0.0.0 img.gdt.qq.com
-0.0.0.0 cls.qq.com
-0.0.0.0 rpt.gdt.qq.com
-0.0.0.0 sdk.e.qq.com
+0.0.0.0 ads.qq.com
 0.0.0.0 beacon.qq.com
+0.0.0.0 cls.qq.com
+0.0.0.0 e.qq.com
 0.0.0.0 eagleye.qq.com
+0.0.0.0 gdt.qq.com
+0.0.0.0 img.gdt.qq.com
 0.0.0.0 mme.qq.com
 0.0.0.0 om.qq.com
+0.0.0.0 pgdt.gtimg.cn
 0.0.0.0 push.qq.com
+0.0.0.0 qqad.qq.com
+0.0.0.0 rpt.gdt.qq.com
+0.0.0.0 sdk.e.qq.com
 0.0.0.0 tap.qq.com
 0.0.0.0 tracing.qq.com
+0.0.0.0 ugdtimg.com
+# GDT 素材 CDN（qzs.gdtimg.com 等，此前漏封）
+0.0.0.0 gdtimg.com
 0.0.0.0 weixin.qq.com
 0.0.0.0 wq.tencent.com
 0.0.0.0 wqad.tencent.com
 0.0.0.0 wqlog.tencent.com
 
 # ===== 百度广告 / Baidu Ads =====
+0.0.0.0 afd.baidu.com
+0.0.0.0 baichuan.baidu.com
 0.0.0.0 baidustatic.com
-0.0.0.0 ubmcmm.baidustatic.com
-0.0.0.0 ubmc.bdstatic.com
 0.0.0.0 c.bdstatic.com
+0.0.0.0 cb.baidu.com
+0.0.0.0 cpro.baidu.com
+0.0.0.0 dl.video.baidu.com
+0.0.0.0 dup.baidu.com
 0.0.0.0 dup.baidustatic.com
+0.0.0.0 ecma.bdimg.com
+0.0.0.0 eiv.bdimg.com
+0.0.0.0 hm.baidu.com
+0.0.0.0 nsclick.baidu.com
+0.0.0.0 pos.baidu.com
+0.0.0.0 push.zhanzhang.baidu.com
 0.0.0.0 s.baidustatic.com
 0.0.0.0 s1.baidustatic.com
 0.0.0.0 s2.baidustatic.com
 0.0.0.0 s3.baidustatic.com
-0.0.0.0 nsclick.baidu.com
-0.0.0.0 cpro.baidu.com
-0.0.0.0 ucpro.baidu.com
-0.0.0.0 su.baidu.com
-0.0.0.0 ecma.bdimg.com
-0.0.0.0 eiv.bdimg.com
-0.0.0.0 cb.baidu.com
-0.0.0.0 wk.baidu.com
-0.0.0.0 baichuan.baidu.com
-0.0.0.0 afd.baidu.com
-0.0.0.0 union.baidu.com
-0.0.0.0 hm.baidu.com
-0.0.0.0 dup.baidu.com
-0.0.0.0 push.zhanzhang.baidu.com
 0.0.0.0 spcode.baidu.com
-0.0.0.0 dl.video.baidu.com
+0.0.0.0 su.baidu.com
+0.0.0.0 ubmc.bdstatic.com
+0.0.0.0 ubmcmm.baidustatic.com
+0.0.0.0 ucpro.baidu.com
+0.0.0.0 union.baidu.com
+0.0.0.0 wk.baidu.com
 
 # ===== 阿里妈妈 / 友盟 / Alibaba =====
 0.0.0.0 acjs.aliyun.com
-0.0.0.0 gma.alicdn.com
-0.0.0.0 gm.mmstat.com
-0.0.0.0 mrads.aliyuncs.com
-0.0.0.0 s.click.taobao.com
-0.0.0.0 uland.taobao.com
 0.0.0.0 alimama.alicdn.com
-0.0.0.0 atm.aliyuncs.com
-0.0.0.0 mq.aliyun.com
-0.0.0.0 c-tb-track.aliyuncs.com
-0.0.0.0 re.taobao.com
-0.0.0.0 track.uc.cn
+0.0.0.0 alogs.umeng.com
+0.0.0.0 analytics.umeng.com
+0.0.0.0 arat.umeng.com
 0.0.0.0 ariver.track.aliyun.com
-0.0.0.0 umeng.com
+0.0.0.0 atm.aliyuncs.com
+0.0.0.0 c-tb-track.aliyuncs.com
+0.0.0.0 gm.mmstat.com
+0.0.0.0 gma.alicdn.com
+0.0.0.0 hc-ssp.sm.cn
+0.0.0.0 mq.aliyun.com
+0.0.0.0 mrads.aliyuncs.com
 0.0.0.0 msg.umeng.com
 0.0.0.0 msg.umengcloud.com
-0.0.0.0 alogs.umeng.com
-0.0.0.0 ulogs.umeng.com
-0.0.0.0 analytics.umeng.com
 0.0.0.0 oc.umeng.com
-0.0.0.0 arat.umeng.com
+0.0.0.0 one.umops.com
+0.0.0.0 partner.uc.cn
+0.0.0.0 re.taobao.com
+0.0.0.0 s.click.taobao.com
+0.0.0.0 track.uc.cn
+0.0.0.0 uland.taobao.com
+0.0.0.0 ulogs.umeng.com
+0.0.0.0 ulogs.umengcloud.com
+0.0.0.0 umeng.com
+0.0.0.0 umengcloud.com
 
 # ===== 快手广告 / Kuaishou Ads =====
-0.0.0.0 ad.kuaishou.com
-0.0.0.0 gdt.kuaishou.com
-0.0.0.0 e.kuaishou.com
 0.0.0.0 ad.e.kuaishou.com
+0.0.0.0 ad.kuaishou.com
+0.0.0.0 e.kuaishou.com
+0.0.0.0 gdt.kuaishou.com
+0.0.0.0 mssdk.ksapisrv.com
+0.0.0.0 open.e.kuaishou.cn
 0.0.0.0 pix.kuaishou.com
-0.0.0.0 yx.kuaishou.com
+0.0.0.0 sdkapi.ksapisrv.com
 0.0.0.0 static.yximgs.com
 0.0.0.0 uxip.kuaishou.com
-0.0.0.0 mssdk.ksapisrv.com
-0.0.0.0 sdkapi.ksapisrv.com
+0.0.0.0 yx.kuaishou.com
+# 快手自研广告 SDK（AegonNative）域名（素材/API/CDN）
+0.0.0.0 kwai.com
+0.0.0.0 kwai.net
+0.0.0.0 gifshow.com
+0.0.0.0 yximgs.com
 
 # ===== 360广告 =====
 0.0.0.0 ad.360.cn
@@ -117,27 +182,27 @@
 0.0.0.0 adcdn.360.cn
 0.0.0.0 adshow.360.cn
 0.0.0.0 api.ad.360.cn
-0.0.0.0 tracking.360.cn
-0.0.0.0 stat.360.cn
-0.0.0.0 s.360.cn
 0.0.0.0 img.alibaba.360.cn
 0.0.0.0 mint.360.cn
+0.0.0.0 s.360.cn
+0.0.0.0 stat.360.cn
+0.0.0.0 tracking.360.cn
 
 # ===== 新浪广告 / Sina =====
 0.0.0.0 ad.sina.com.cn
-0.0.0.0 ads.sina.com.cn
+0.0.0.0 ad.weibo.com
+0.0.0.0 adimage.sina.com
 0.0.0.0 adimg.sina.com
 0.0.0.0 adimg.sinaimg.cn
-0.0.0.0 adimage.sina.com
-0.0.0.0 d2.sina.com.cn
-0.0.0.0 beacon.sina.com.cn
-0.0.0.0 rm.sina.com.cn
-0.0.0.0 ad.weibo.com
 0.0.0.0 adimg.weibo.com
-0.0.0.0 m.weibo.cn
-0.0.0.0 wb.admaster.com.cn
-0.0.0.0 tracking.weibo.com
+0.0.0.0 ads.sina.com.cn
+0.0.0.0 beacon.sina.com.cn
+0.0.0.0 d2.sina.com.cn
 0.0.0.0 log.weibo.com
+0.0.0.0 m.weibo.cn
+0.0.0.0 rm.sina.com.cn
+0.0.0.0 tracking.weibo.com
+0.0.0.0 wb.admaster.com.cn
 
 # ===== 搜狐广告 / Sohu =====
 0.0.0.0 ad.sohu.com
@@ -148,158 +213,224 @@
 0.0.0.0 tracking.sohu.com
 
 # ===== 美团 / 京东 / 拼多多（电商广告） =====
-0.0.0.0 tracker.meituan.com
-0.0.0.0 sparta.meituan.com
-0.0.0.0 msc.meituan.com
 0.0.0.0 ad.jd.com
-0.0.0.0 tracker.jd.com
 0.0.0.0 ad.pinduoduo.com
+0.0.0.0 adim.pinduoduo.com
+0.0.0.0 auction.pinduoduo.com
+0.0.0.0 dsp-x.jd.com
+0.0.0.0 msc.meituan.com
+0.0.0.0 pos.pinduoduo.com
+0.0.0.0 sdd.pinduoduo.com
+0.0.0.0 sparta.meituan.com
+0.0.0.0 tracker.jd.com
+0.0.0.0 tracker.meituan.com
 0.0.0.0 tracker.pinduoduo.com
 
 # ===== 网宿 / 其他国内广告网络 =====
-0.0.0.0 admaster.com.cn
-0.0.0.0 cm.admaster.com.cn
-0.0.0.0 smt.admaster.com.cn
-0.0.0.0 adview.cn
-0.0.0.0 bid.adview.cn
-0.0.0.0 open.adview.cn
 0.0.0.0 adfuture.cn
+0.0.0.0 admaster.com.cn
 0.0.0.0 adsunflower.com
-0.0.0.0 advmob.cn
 0.0.0.0 adups.cn
 0.0.0.0 adups.com
+0.0.0.0 adview.cn
+0.0.0.0 advmob.cn
 0.0.0.0 applog.camera360.com
+0.0.0.0 bid.adview.cn
+0.0.0.0 cm.admaster.com.cn
 0.0.0.0 datacollector-dra.dt.dbankcloud.cn
 0.0.0.0 easebar.com
 0.0.0.0 fotoable.com
+0.0.0.0 mintegral.com
 0.0.0.0 mobads.baidu.com
 0.0.0.0 mobadserve.cn
 0.0.0.0 mobvista.com
-0.0.0.0 mintegral.com
+0.0.0.0 open.adview.cn
 0.0.0.0 sg.mintegral.com
+0.0.0.0 smt.admaster.com.cn
 
 # ===== 海外：Google Ads / AdMob / DoubleClick =====
-0.0.0.0 googleadservices.com
-0.0.0.0 adservice.google.com
-0.0.0.0 ads.google.com
-0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 ad.doubleclick.net
-0.0.0.0 doubleclick.net
-0.0.0.0 static.doubleclick.net
-0.0.0.0 googlesyndication.com
-0.0.0.0 pagead2.googlesyndication.com
-0.0.0.0 googletagservices.com
 0.0.0.0 2mdn.net
+0.0.0.0 ad.doubleclick.net
 0.0.0.0 admob.com
+0.0.0.0 ads.google.com
+0.0.0.0 adservice.google.com
+0.0.0.0 doubleclick.net
 0.0.0.0 googleads.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 googleadservices.com
+0.0.0.0 googlesyndication.com
+0.0.0.0 googletagservices.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 static.doubleclick.net
 
 # ===== 海外：Meta / Facebook / Instagram 广告 =====
 0.0.0.0 an.facebook.com
 0.0.0.0 analytics.facebook.com
-0.0.0.0 edge-metrics.facebook.com
 0.0.0.0 creative.ak.fbcdn.net
-0.0.0.0 video.xx.fbcdn.net
-0.0.0.0 static.xx.fbcdn.net
+0.0.0.0 edge-metrics.facebook.com
 0.0.0.0 pixel.instagram.com
+0.0.0.0 static.xx.fbcdn.net
+0.0.0.0 video.xx.fbcdn.net
 
 # ===== 海外：Amazon Ads =====
-0.0.0.0 amazon-adsystem.com
+0.0.0.0 aax-us-east.amazon-adsystem.com
 0.0.0.0 aax.amazon-adsystem.com
+0.0.0.0 amazon-adsystem.com
 0.0.0.0 c.amazon-adsystem.com
 0.0.0.0 mads.amazon-adsystem.com
 0.0.0.0 s.amazon-adsystem.com
-0.0.0.0 aax-us-east.amazon-adsystem.com
 
 # ===== 海外：Unity Ads =====
-0.0.0.0 unityads.unity3d.com
+0.0.0.0 ads.unity3d.com
 0.0.0.0 auction.unityads.unity3d.com
 0.0.0.0 config.unityads.unity3d.com
+0.0.0.0 unityads.unity3d.com
 0.0.0.0 webview.unityads.unity3d.com
-0.0.0.0 ads.unity3d.com
 
 # ===== 海外：AppLovin =====
 0.0.0.0 applovin.com
 0.0.0.0 dsp.applovin.com
-0.0.0.0 sdk.applovin.com
 0.0.0.0 m.applovin.com
 0.0.0.0 pdn.applovin.com
+0.0.0.0 sdk.applovin.com
 
 # ===== 海外：TikTok 广告 =====
 0.0.0.0 ads.tiktok.com
-0.0.0.0 sdkapi.tiktokv.com
 0.0.0.0 mon.tiktokv.com
 0.0.0.0 muse.tiktokv.com
+0.0.0.0 sdkapi.tiktokv.com
 
 # ===== 海外：Criteo / 重定向 =====
+0.0.0.0 ads.criteo.com
 0.0.0.0 criteo.com
 0.0.0.0 criteo.net
 0.0.0.0 static.criteo.net
-0.0.0.0 ads.criteo.com
 
 # ===== 海外：原生广告 Taboola / Outbrain =====
-0.0.0.0 taboola.com
-0.0.0.0 cdn.taboola.com
-0.0.0.0 widgets.taboola.com
-0.0.0.0 outbrain.com
-0.0.0.0 widgets.outbrain.com
 0.0.0.0 cdn.outbrain.com
+0.0.0.0 cdn.taboola.com
+0.0.0.0 outbrain.com
+0.0.0.0 taboola.com
+0.0.0.0 widgets.outbrain.com
+0.0.0.0 widgets.taboola.com
 
 # ===== 海外：程序化广告交易（Rubicon/PubMatic/OpenX/Index/SpotX/TripleLift/Smart） =====
-0.0.0.0 rubiconproject.com
-0.0.0.0 fastlane.rubiconproject.com
-0.0.0.0 magnite.com
-0.0.0.0 pubmatic.com
-0.0.0.0 ads.pubmatic.com
-0.0.0.0 openx.net
-0.0.0.0 indexww.com
-0.0.0.0 spotxchange.com
-0.0.0.0 spotx.tv
+0.0.0.0 1rtb.net
 0.0.0.0 3lift.com
-0.0.0.0 smartadserver.com
+0.0.0.0 ads.pubmatic.com
 0.0.0.0 ads.smartadserver.com
+0.0.0.0 fastlane.rubiconproject.com
+0.0.0.0 indexww.com
+0.0.0.0 magnite.com
+0.0.0.0 openx.net
+0.0.0.0 pubmatic.com
+0.0.0.0 rubiconproject.com
+0.0.0.0 smartadserver.com
+0.0.0.0 spotx.tv
+0.0.0.0 spotxchange.com
 
 # ===== 其他海外广告网络 / Other Global =====
-0.0.0.0 ads.vungle.com
-0.0.0.0 vungle.com
-0.0.0.0 adcolony.com
-0.0.0.0 ads.tapjoy.com
-0.0.0.0 tapjoy.com
-0.0.0.0 inmobi.com
-0.0.0.0 chartboost.com
-0.0.0.0 ironsrc.mobi
-0.0.0.0 ssl.jg.ironsrc.mobi
-0.0.0.0 pubnative.net
-0.0.0.0 startappservice.com
-0.0.0.0 adsrvr.org
-0.0.0.0 nf.adsrvr.org
-0.0.0.0 ads.casalemedia.com
-0.0.0.0 adserver.yahoo.com
-0.0.0.0 adserver.adtech.de
-0.0.0.0 ads.linkedin.com
-0.0.0.0 adsafra.net
-0.0.0.0 i.mob.com
-0.0.0.0 s.mob.com
-0.0.0.0 adf.virtual-ad.com
-0.0.0.0 delivery.hypermind.com
 0.0.0.0 ad.leadbolt.net
+0.0.0.0 adcolony.com
+0.0.0.0 adf.virtual-ad.com
+0.0.0.0 ads.casalemedia.com
+0.0.0.0 ads.linkedin.com
 0.0.0.0 ads.server.cpm
+0.0.0.0 ads.tapjoy.com
+0.0.0.0 ads.vungle.com
+0.0.0.0 adsafra.net
+0.0.0.0 adserver.adtech.de
+0.0.0.0 adserver.yahoo.com
+0.0.0.0 adsrvr.org
 0.0.0.0 cbks.content.ad
+0.0.0.0 chartboost.com
+0.0.0.0 delivery.hypermind.com
+0.0.0.0 i.mob.com
+0.0.0.0 inmobi.com
+0.0.0.0 ironsrc.mobi
+0.0.0.0 nf.adsrvr.org
+0.0.0.0 pubnative.net
+0.0.0.0 s.mob.com
+0.0.0.0 ssl.jg.ironsrc.mobi
+0.0.0.0 startappservice.com
+0.0.0.0 tapjoy.com
+0.0.0.0 vungle.com
 
 # ===== Analysys / GrowingIO / Sensors Data (分析追踪) =====
 0.0.0.0 analysys.cn
-0.0.0.0 growingio.com
 0.0.0.0 datayi.cn
-0.0.0.0 sensorsdata.cn
+0.0.0.0 growingio.com
 0.0.0.0 saas.growingio.com
+0.0.0.0 sensorsdata.cn
+0.0.0.0 sensorsdata.hbooker.com
 
 # ===== 推送广告 / Push Ads =====
-0.0.0.0 jpush.cn
-0.0.0.0 jpush.io
 0.0.0.0 api.jpush.cn
 0.0.0.0 device.jpush.cn
-0.0.0.0 stats.jpush.cn
-0.0.0.0 umengpush.com
 0.0.0.0 getui.com
 0.0.0.0 getui.net
 0.0.0.0 gexin.net
+0.0.0.0 jpush.cn
+0.0.0.0 jpush.io
 0.0.0.0 push.getui.com
+0.0.0.0 stats.jpush.cn
+0.0.0.0 umengpush.com
+
+# ===== 聚联广告 / AnyThink =====
+0.0.0.0 anythinktech.com
+0.0.0.0 statisticslinks.com
+# AnyThink/TopOn DSP 实时竞价接口（第三方 DSP 广告如拼多多/酷影都从这进来）
+0.0.0.0 metricslinks.com
+
+# ===== 酷宇广告 / Kuyu =====
+0.0.0.0 kuyuad.com
+
+# ===== 微分身双开自营广告 / moocang =====
+0.0.0.0 ad.moocang.net
+0.0.0.0 statis.moocang.net
+# 首页"视频轮播"/开屏/广告图标自营接口 (adService/ad/materialCnt, nadList, adIconList)。
+# 注意：bus.moocang.net 也承载克隆引擎下载(bitDownload.php)与云手机 API，封后新克隆会受影响。
+0.0.0.0 bus.moocang.net
+# 应用推送下载弹窗 (pushmess.php 推"下载/跳转快手PDD")。注意：mto.moocang.net 也承载
+# 会员支付(wepay/v5)、版本检查、客服，封后这些不可用。
+0.0.0.0 mto.moocang.net
+# 域名轮换 / 反封禁：App 请求失败时 DomainInterceptor 从这些端点拉取备用域名，
+# 不封则主域被封后会自动切到新域继续拉广告。
+0.0.0.0 domain.mocdm.cn
+0.0.0.0 mcdm.oss-rg-china-mainland.aliyuncs.com
+0.0.0.0 mocdm.cn
+# 备用域上的广告控制 / 统计
+0.0.0.0 statis.multiopen.cn
+# 应用推送下载弹窗（旧推送备用域，SPushService pushmess.php）
+0.0.0.0 mto.multiopen.cn
+# 厂商归因 / 日志上报
+0.0.0.0 3rd.moocang.net
+0.0.0.0 log.moocang.net
+
+# ===== 微分身双开 其他推广 / 追踪 =====
+0.0.0.0 id6.me
+0.0.0.0 res.ldmnq.com
+0.0.0.0 wasair.com
+# TopOn 聚合的第三方 DSP 广告源（酷影/快手极速版/下载推送）
+0.0.0.0 fancydsp.com
+0.0.0.0 kwaizt.com
+0.0.0.0 yksdks.com
+0.0.0.0 iggrowth.cn
+
+# ===== 可疑域名 / Suspicious =====
+0.0.0.0 api.applink.mob.com
+0.0.0.0 beizi.biz
+0.0.0.0 doglobal.net
+0.0.0.0 excelliance.cn
+0.0.0.0 fancyapi.com
+0.0.0.0 hubcloud.com.cn
+0.0.0.0 sdk-log.partner.sm.cn
+0.0.0.0 t2.fancyapi.com
+0.0.0.0 touch-moblie.com
+0.0.0.0 upd.mocapp.cn
+0.0.0.0 xdmssp.com
+0.0.0.0 xdrun.com
+0.0.0.0 yunxish.com
+
+# ===== 爱奇艺广告 / iQiyi Ads =====
+0.0.0.0 bidinfo-ssp.iqiyi.com
