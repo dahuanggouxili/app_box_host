@@ -1,7 +1,7 @@
 # PrivacyFirewall 广告网络黑名单（国内 + 海外合并）
 # Format: 0.0.0.0 domain
 # Sources: 自维护合并；覆盖国内主流 + 海外主流广告网络（保守）
-# version: 20260802-27
+# version: 20260802-28
 
 
 
@@ -75,6 +75,11 @@
 0.0.0.0 etoote.com
 0.0.0.0 bytescm.com
 0.0.0.0 douyinpic.com
+# 穿山甲直播/视频广告 API 与流（douyin webcast / zijieapi / volces）
+0.0.0.0 zijieapi.com
+0.0.0.0 volces.com
+0.0.0.0 webcast-open.douyin.com
+0.0.0.0 webcast5-open-lf.douyin.com
 
 # ===== 腾讯广点通 / Tencent GDT =====
 0.0.0.0 ad.qq.com
@@ -416,6 +421,11 @@
 0.0.0.0 kwaizt.com
 0.0.0.0 yksdks.com
 0.0.0.0 iggrowth.cn
+# 开屏/插屏/直播广告源（58同城广告 / 快手直播 / 未知广告SDK / 应用推荐广播）
+0.0.0.0 58iclick.com
+0.0.0.0 kuaishouzt.com
+0.0.0.0 hiaiabc.com
+0.0.0.0 cdndy.multiopen.cn
 
 # ===== 可疑域名 / Suspicious =====
 0.0.0.0 api.applink.mob.com
