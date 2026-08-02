@@ -1,7 +1,7 @@
 # PrivacyFirewall 广告网络黑名单（国内 + 海外合并）
 # Format: 0.0.0.0 domain
 # Sources: 自维护合并；覆盖国内主流 + 海外主流广告网络（保守）
-# version: 20260802-28
+# version: 20260802-29
 
 
 
@@ -399,6 +399,10 @@
 # 应用推送下载弹窗 (pushmess.php 推"下载/跳转快手PDD")。注意：mto.moocang.net 也承载
 # 会员支付(wepay/v5)、版本检查、客服，封后这些不可用。
 0.0.0.0 mto.moocang.net
+# 会员/开屏弹窗 + 自营广告配置 (multiOpenMain.php 全局配置、userBanner.php 轮播、
+# newofflinead.php 离线广告、discountVipAlert.php 会员弹窗、getRecomApps.php 推荐)。
+# 注意：folder.moocang.net 也是登录/注册域，封后无法登录账号（已建分身不受影响）。
+0.0.0.0 folder.moocang.net
 # 域名轮换 / 反封禁：App 请求失败时 DomainInterceptor 从这些端点拉取备用域名，
 # 不封则主域被封后会自动切到新域继续拉广告。
 0.0.0.0 domain.mocdm.cn
