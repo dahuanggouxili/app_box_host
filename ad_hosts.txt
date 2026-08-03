@@ -1,7 +1,7 @@
 # PrivacyFirewall 广告网络黑名单（国内 + 海外合并）
 # Format: 0.0.0.0 domain
 # Sources: 自维护合并；覆盖国内主流 + 海外主流广告网络（保守）
-# version: 20260803-10
+# version: 20260804-1
 
 # ===== 字节跳动 / ByteDance (穿山甲 Pangle) =====
 0.0.0.0 pangleglobal.com
@@ -610,3 +610,21 @@
 0.0.0.0 applk.cn
 0.0.0.0 hnwzinfo.com
 0.0.0.0 gxycwy.cn
+
+# ===== 腾讯广点通 / 优量汇（新放行日志补充 2026-08-04）=====
+0.0.0.0 a.gdt.qq.com
+0.0.0.0 omgid.qq.com
+0.0.0.0 content.rconfig.qq.com
+0.0.0.0 h.trace.qq.com
+0.0.0.0 tdid.m.qq.com
+0.0.0.0 adsmind.gdtimg.com
+0.0.0.0 pgdt.gtimg.cn
+
+# ===== 其他广告网络（新放行日志补充 2026-08-04）=====
+0.0.0.0 ef-dongfeng.tanx.com
+0.0.0.0 c.etoolads.cn
+0.0.0.0 logrcv.aiclk.com
+0.0.0.0 usr-api.aiclk.com
+0.0.0.0 line3-adscore-api.biligame.net
+0.0.0.0 tap-dsp.iem.taptap.cn
+0.0.0.0 commercial.iem.taptap.cn
