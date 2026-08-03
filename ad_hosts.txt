@@ -1,7 +1,7 @@
 # PrivacyFirewall 广告网络黑名单（国内 + 海外合并）
 # Format: 0.0.0.0 domain
 # Sources: 自维护合并；覆盖国内主流 + 海外主流广告网络（保守）
-# version: 20260804-4
+# version: 20260804-5
 
 
 # ===== 字节跳动 / ByteDance (穿山甲 Pangle) =====
@@ -118145,4 +118145,18 @@
 0.0.0.0 tgc.zztfly.com
 0.0.0.0 trace.inlong.qq.com
 0.0.0.0 upc.zztfly.com
+
+# ===== 腾讯视频抓包补充(2026-08-04) =====
+0.0.0.0 acc.qq.com
+0.0.0.0 api6.poll.video.qq.com
+0.0.0.0 gif.media.qpic.cn
+0.0.0.0 image.kairos.qpic.cn
+0.0.0.0 ltsbdy.gtimg.com
+0.0.0.0 ltscsy.qq.com
+0.0.0.0 ltscsysw.gtimg.com
+0.0.0.0 ltstysj.gtimg.com
+0.0.0.0 ltstyyjt.gtimg.com
+0.0.0.0 ltstyyy.gtimg.com
+0.0.0.0 ltsxmty.gtimg.com
+0.0.0.0 ltsyousw.gtimg.com
 
