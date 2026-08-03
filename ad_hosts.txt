@@ -1,7 +1,7 @@
 # PrivacyFirewall 广告网络黑名单（国内 + 海外合并）
 # Format: 0.0.0.0 domain
 # Sources: 自维护合并；覆盖国内主流 + 海外主流广告网络（保守）
-# version: 20260804-3
+# version: 20260804-4
 
 
 # ===== 字节跳动 / ByteDance (穿山甲 Pangle) =====
@@ -118105,3 +118105,44 @@
 0.0.0.0 zzys.haha5.cn
 0.0.0.0 zzyxhvqjjtgxj.online
 0.0.0.0 zzzmjfixezere.site
+# ===== 用户实测广告补充(2026-08-04) =====
+0.0.0.0 113-14-179-120-yf781d98.yingt.asia
+0.0.0.0 113-16-59-131-yfdb3bd8.yingt.asia
+0.0.0.0 119-120-199-23-yf2f2f5c.yingt.asia
+0.0.0.0 163-125-223-225-yfdc00d8.yingt.asia
+0.0.0.0 182-43-43-184-yfed521f.yingt.asia
+0.0.0.0 202-103-243-142-yfb2d2bc.yingt.asia
+0.0.0.0 202-103-243-142-yfe5871f.yingt.asia
+0.0.0.0 218-15-28-183-yf96bd1b.yingt.asia
+0.0.0.0 4mqdrbiuoro0kbeq7o5i5cim623i8t0knms2pji0asics822rp4pt9e.wuchuyun.com
+0.0.0.0 92f47c7632425a16-47c645663af22aa4.jomoxc.com
+0.0.0.0 92f47c7632425a16-b61e3eee95682143.jomoxc.com
+0.0.0.0 92f47c7632425a16-bfdc327f2d879336.jomoxc.com
+0.0.0.0 92f47c7632425a16-ebeaa614a18ca3d8.jomoxc.com
+0.0.0.0 adn.tapapis.cn
+0.0.0.0 api-dll.dutils.com
+0.0.0.0 api-p0.mobsurl.com
+0.0.0.0 bdapp.starrydyn.com
+0.0.0.0 bifrost.tapapis.cn
+0.0.0.0 c-w-s.applk.cn
+0.0.0.0 c.viayoo.com
+0.0.0.0 cfgc.zztfly.com
+0.0.0.0 devc.zztfly.com
+0.0.0.0 dfp.tapapis.cn
+0.0.0.0 gid.tapapis.cn
+0.0.0.0 kjp.cupid.iqiyi.com
+0.0.0.0 msv6.wosms.cn
+0.0.0.0 openlog.tapapis.cn
+0.0.0.0 oss.excelliance.cn
+0.0.0.0 pss-common.youku.com
+0.0.0.0 pss.alicdn.com
+0.0.0.0 resource.cupid.iqiyi.com
+0.0.0.0 rls.tapurl.com
+0.0.0.0 sdk-plugin-api-rel.haimacloud.com
+0.0.0.0 snowflake.qq.com
+0.0.0.0 stat.doglobal.net
+0.0.0.0 tconfig.tapapis.cn
+0.0.0.0 tgc.zztfly.com
+0.0.0.0 trace.inlong.qq.com
+0.0.0.0 upc.zztfly.com
+
