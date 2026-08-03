@@ -1,7 +1,7 @@
 # PrivacyFirewall 广告网络黑名单（国内 + 海外合并）
 # Format: 0.0.0.0 domain
 # Sources: 自维护合并；覆盖国内主流 + 海外主流广告网络（保守）
-# version: 20260804-7
+# version: 20260804-8
 
 
 # ===== 字节跳动 / ByteDance (穿山甲 Pangle) =====
@@ -13436,7 +13436,6 @@
 0.0.0.0 aevlgbckiceis.website
 0.0.0.0 aewhvwzitmfxv.website
 0.0.0.0 aewqedfkkplhtdh.com
-0.0.0.0 aexception.bugly.qq.com
 0.0.0.0 aexhyo.pilatos.com
 0.0.0.0 aexoao7lg6.com
 0.0.0.0 aexouiunvonkl.site
@@ -14341,7 +14340,6 @@
 0.0.0.0 alinks.outcomes4me.com
 0.0.0.0 alinxc.com
 0.0.0.0 alipay.dajiadou6.com
-0.0.0.0 alipaylog.com
 0.0.0.0 alipromo.com
 0.0.0.0 alisomymar.shop
 0.0.0.0 alissl.ucdl.pp.uc.cn
@@ -15569,7 +15567,6 @@
 0.0.0.0 android-lrcresource.wps.cn
 0.0.0.0 android-quinoa-config-prod.sense360eng.com
 0.0.0.0 android.bcfads.com
-0.0.0.0 android.bugly.qq.com
 0.0.0.0 android.push.126.net
 0.0.0.0 android.rqd.qq.com
 0.0.0.0 android.txtsmarter.com
@@ -18324,7 +18321,6 @@
 0.0.0.0 ast-en.adp.ca
 0.0.0.0 ast-fr.adp.ca
 0.0.0.0 astarsbuilding.com
-0.0.0.0 astat.bugly.qq.com
 0.0.0.0 astat.nikkei.com
 0.0.0.0 astelicbanes.com
 0.0.0.0 aster18cdn.nl
@@ -22803,7 +22799,6 @@
 0.0.0.0 bugjyl.jkattire.co.uk
 0.0.0.0 bugleczmoidgxo.com
 0.0.0.0 bugluygcopwdg.space
-0.0.0.0 bugly.qq.com
 0.0.0.0 bugpizza.com
 0.0.0.0 bugpuk.ru
 0.0.0.0 bugreportv2.qq.com
@@ -23372,7 +23367,6 @@
 0.0.0.0 c.kuaiduizuoye.com
 0.0.0.0 c.kuaituisss.com
 0.0.0.0 c.kuwo.cn
-0.0.0.0 c.l.qq.com
 0.0.0.0 c.lattebank.com
 0.0.0.0 c.lelangegg.cn
 0.0.0.0 c.lianwangtech.com
@@ -26769,7 +26763,6 @@
 0.0.0.0 cnzzlink.com
 0.0.0.0 co-emas.com
 0.0.0.0 co-gmtdmp.mookie1.com
-0.0.0.0 co-sentry.wps.cn
 0.0.0.0 co.akisinn.info
 0.0.0.0 co.dewrain.life
 0.0.0.0 co.dtech.baofeng.com
@@ -26955,7 +26948,6 @@
 0.0.0.0 collect.adplogger.no
 0.0.0.0 collect.adsorb.com
 0.0.0.0 collect.air1.com
-0.0.0.0 collect.alipay.com
 0.0.0.0 collect.allianz-technology.ch
 0.0.0.0 collect.allianz.ch
 0.0.0.0 collect.alphastream.io
@@ -28784,7 +28776,6 @@
 0.0.0.0 crashes.mo.wps.cn
 0.0.0.0 crasheye.cn
 0.0.0.0 crashlytics.163.com
-0.0.0.0 crashlytics.com
 0.0.0.0 crashlyticsreports-pa.googleapis.com
 0.0.0.0 crashpandas.com
 0.0.0.0 cratecamera.com
@@ -35489,7 +35480,6 @@
 0.0.0.0 du2uh7rq0r0d3.cloudfront.net
 0.0.0.0 du4rq1xqh3i1k.cloudfront.net
 0.0.0.0 du99h8anpnevg.cloudfront.net
-0.0.0.0 dualstack-logs.amap.com
 0.0.0.0 dualstack.adsame-1421766300.ap-southeast-1.elb.amazonaws.com
 0.0.0.0 duanat.com
 0.0.0.0 duantgrouped.shop
@@ -36050,7 +36040,6 @@
 0.0.0.0 e.codlw.com
 0.0.0.0 e.coenr.com
 0.0.0.0 e.connectad.io
-0.0.0.0 e.crashlytics.com
 0.0.0.0 e.cuomm.com
 0.0.0.0 e.cx016d.cn
 0.0.0.0 e.czggcj.com
@@ -41392,8 +41381,6 @@
 0.0.0.0 fiqpkrqfrnpxn.space
 0.0.0.0 fircokqe.com
 0.0.0.0 fire.solutions.jci.com
-0.0.0.0 firebaselogging-pa.googleapis.com
-0.0.0.0 firebaselogging.googleapis.com
 0.0.0.0 firecatfilms.com
 0.0.0.0 firefang.cn
 0.0.0.0 fireflyengagement.com
@@ -44155,7 +44142,6 @@
 0.0.0.0 gets.myoyster.mx
 0.0.0.0 getscoutapp.com
 0.0.0.0 getscriptjs.com
-0.0.0.0 getsentry.com
 0.0.0.0 getsharedstore.com
 0.0.0.0 getsitecontrol.com
 0.0.0.0 getsmartcontent.com
@@ -53018,7 +53004,6 @@
 0.0.0.0 ios.426g.com
 0.0.0.0 ios.asktagapp.com
 0.0.0.0 ios.bayimob.com
-0.0.0.0 ios.bugly.qq.com
 0.0.0.0 ios.unid.go.com
 0.0.0.0 iosipa.b0.upaiyun.com
 0.0.0.0 ioslog.ssl2.duapps.com
@@ -59551,7 +59536,6 @@
 0.0.0.0 livemonitor.huan.tv
 0.0.0.0 livep.l.aiseet.atianqi.com
 0.0.0.0 livep.l.ott.video.qq.com
-0.0.0.0 livep.l.qq.com
 0.0.0.0 livep.l.t002.ottcn.com
 0.0.0.0 liveprivates.com
 0.0.0.0 livepromotools.com
@@ -59560,7 +59544,6 @@
 0.0.0.0 lives.l.aiseet.atianqi.com
 0.0.0.0 lives.l.cp81.ott.cibntv.net
 0.0.0.0 lives.l.ott.video.qq.com
-0.0.0.0 lives.l.qq.com
 0.0.0.0 livesearch-metrics.magento-ds.com
 0.0.0.0 livesegmentservice.com
 0.0.0.0 livesession.io
@@ -60257,7 +60240,6 @@
 0.0.0.0 logs.81plug.com
 0.0.0.0 logs.adplay.ru
 0.0.0.0 logs.adroll.com
-0.0.0.0 logs.amap.com
 0.0.0.0 logs.animaapp.com
 0.0.0.0 logs.betterstack.com
 0.0.0.0 logs.chatboost-cv.algoage.co.jp
@@ -64818,7 +64800,6 @@
 0.0.0.0 md.sh5e.com
 0.0.0.0 md.tvzhe.com
 0.0.0.0 mdamyqrttrxmi.website
-0.0.0.0 mdap.alipaylog.com
 0.0.0.0 mdapp01.com
 0.0.0.0 mdbkdndghnjpi.space
 0.0.0.0 mdbzgpjywsgvh.online
@@ -74408,7 +74389,6 @@
 0.0.0.0 p.kf3msfm.com
 0.0.0.0 p.kjwx8.com
 0.0.0.0 p.kugou.com
-0.0.0.0 p.l.qq.com
 0.0.0.0 p.l.ykimg.com
 0.0.0.0 p.l.youku.com
 0.0.0.0 p.lexph.com
@@ -78943,7 +78923,6 @@
 0.0.0.0 putphc.zuhre.com.tr
 0.0.0.0 putrr16.com
 0.0.0.0 putrr7.com
-0.0.0.0 puui.qpic.cn
 0.0.0.0 puuush.me
 0.0.0.0 puvqnflkiuhwl.site
 0.0.0.0 puxapklakozg.in
@@ -118149,7 +118128,6 @@
 # ===== 腾讯视频抓包补充(2026-08-04) =====
 0.0.0.0 acc.qq.com
 0.0.0.0 api6.poll.video.qq.com
-0.0.0.0 gif.media.qpic.cn
 0.0.0.0 image.kairos.qpic.cn
 0.0.0.0 ltsbdy.gtimg.com
 0.0.0.0 ltscsy.qq.com
