@@ -1,7 +1,7 @@
 # PrivacyFirewall 广告网络黑名单（国内 + 海外合并）
 # Format: 0.0.0.0 domain
 # Sources: 自维护合并；覆盖国内主流 + 海外主流广告网络（保守）
-# version: 20260803-6
+# version: 20260803-7
 
 # ===== 字节跳动 / ByteDance (穿山甲 Pangle) =====
 0.0.0.0 pangleglobal.com
@@ -26,6 +26,13 @@
 0.0.0.0 p3-ad-sign.toutiaoimg.com
 0.0.0.0 p6-ad-sign.toutiaoimg.com
 0.0.0.0 p9-ad-sign.toutiaoimg.com
+# 番茄免费小说(com.dragon.read)阅读章末/整页广告卡片（穿山甲Pangle 5.7.1.2，2026-08-03 抓包+反编译定位）
+0.0.0.0 ad.zijieapi.com
+0.0.0.0 ads3-normal.zijieapi.com
+0.0.0.0 ads5-normal.zijieapi.com
+0.0.0.0 ads5-normal-lf.zijieapi.com
+0.0.0.0 lianmengapi.snssdk.com
+0.0.0.0 p1-luckycatopen.byteimg.com
 
 # ===== 腾讯广点通 / Tencent GDT =====
 # 3g.qq.com 为宽域条目：拦截 3g.qq.com 及其全部子域（*.3g.qq.com）
