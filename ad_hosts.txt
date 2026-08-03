@@ -1,7 +1,7 @@
 # PrivacyFirewall 广告网络黑名单（国内 + 海外合并）
 # Format: 0.0.0.0 domain
 # Sources: 自维护合并；覆盖国内主流 + 海外主流广告网络（保守）
-# version: 20260804-5
+# version: 20260804-6
 
 
 # ===== 字节跳动 / ByteDance (穿山甲 Pangle) =====
@@ -118159,4 +118159,9 @@
 0.0.0.0 ltstyyy.gtimg.com
 0.0.0.0 ltsxmty.gtimg.com
 0.0.0.0 ltsyousw.gtimg.com
+
+# ===== 广告网络根域补充(2026-08-04) =====
+0.0.0.0 tanx.com
+0.0.0.0 mmstat.com
+0.0.0.0 admaster.com
 
