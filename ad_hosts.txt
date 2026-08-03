@@ -1,7 +1,7 @@
 # PrivacyFirewall 广告网络黑名单（国内 + 海外合并）
 # Format: 0.0.0.0 domain
 # Sources: 自维护合并；覆盖国内主流 + 海外主流广告网络（保守）
-# version: 20260804-6
+# version: 20260804-7
 
 
 # ===== 字节跳动 / ByteDance (穿山甲 Pangle) =====
@@ -118164,4 +118164,8 @@
 0.0.0.0 tanx.com
 0.0.0.0 mmstat.com
 0.0.0.0 admaster.com
+
+# ===== 广点通 .cn 素材 CDN 根域(2026-08-04) =====
+0.0.0.0 gdtimg.cn
+0.0.0.0 ugdtimg.cn
 
