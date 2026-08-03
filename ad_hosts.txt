@@ -1,7 +1,7 @@
 # PrivacyFirewall 广告网络黑名单（国内 + 海外合并）
 # Format: 0.0.0.0 domain
 # Sources: 自维护合并；覆盖国内主流 + 海外主流广告网络（保守）
-# version: 20260803-9
+# version: 20260803-10
 
 # ===== 字节跳动 / ByteDance (穿山甲 Pangle) =====
 0.0.0.0 pangleglobal.com
@@ -518,3 +518,95 @@
 # 字节穿山甲埋点 / 素材 CDN（bytescm.com 具体子域）
 0.0.0.0 mssdk-bu.bytedance.com
 0.0.0.0 lf-cdn-tos.bytescm.com
+
+# ===== 视频 App 广告补充（2026-08-03 抓包：优酷/爱奇艺/腾讯视频/芒果TV/咪咕/央视频/微视/乐视/好看视频） =====
+# 独立广告网络 / SDK / 监测
+0.0.0.0 adn-plus.com.cn
+0.0.0.0 innoads.cn
+0.0.0.0 ubixioe.com
+0.0.0.0 ydmob.com
+0.0.0.0 66mobi.com
+0.0.0.0 adwangmai.com
+0.0.0.0 beizi.biz
+0.0.0.0 comfylink.com
+0.0.0.0 adkwai.com
+0.0.0.0 adukwai.com
+0.0.0.0 kuiniuca.com
+0.0.0.0 mobmore.com
+0.0.0.0 miaozhen.com
+0.0.0.0 reachmax.cn
+0.0.0.0 shuzilm.cn
+0.0.0.0 shuziwenbo.cn
+0.0.0.0 cmgadx.com
+# 优酷
+0.0.0.0 ad.youku.com
+0.0.0.0 adx-core.youku.com
+0.0.0.0 adx-open-service.youku.com
+0.0.0.0 cad.youku.com
+0.0.0.0 ykad-data.youku.com
+0.0.0.0 adashx.ut.youku.com
+# 腾讯视频 / 腾讯广告
+0.0.0.0 rdelivery.qq.com
+0.0.0.0 richmedia.video.qq.com
+0.0.0.0 adnet.qq.com
+# 阿里妈妈 / 淘宝
+0.0.0.0 click.alimama.com
+0.0.0.0 clickserver.alimama.com
+0.0.0.0 h-adashx.ut.taobao.com
+# 百度视频 / 百度广告
+0.0.0.0 mobads-logs.baidu.com
+0.0.0.0 nadecomvideo.baidu.com
+0.0.0.0 nadvideo2.baidu.com
+0.0.0.0 sofire.baidu.com
+0.0.0.0 sofire-dr.baidu.com
+# 字节 / 京东 / UC
+0.0.0.0 effect.snssdk.com
+0.0.0.0 ichannel.snssdk.com
+0.0.0.0 lf-reward-video.bytedcdn.com
+0.0.0.0 p9-ad-sign.byteimg.com
+0.0.0.0 ccc-x.jd.com
+0.0.0.0 px.ucweb.com
+# 腾讯云广告素材 / 友盟
+0.0.0.0 adstore-1252524079.file.myqcloud.com
+0.0.0.0 zlink.ugsdk.cn
+# 广告追踪 / 咪咕视频（gg = 广告）
+0.0.0.0 ad.adtrack.enlightent.cn
+0.0.0.0 ad.cmvideo.cn
+0.0.0.0 ggc.cmvideo.cn
+0.0.0.0 ggic.cmvideo.cn
+0.0.0.0 ggx.cmvideo.cn
+0.0.0.0 ggc.miguvideo.com
+0.0.0.0 ggic01.miguvideo.com
+0.0.0.0 gginvasdk.miguvideo.com
+0.0.0.0 ggstaticcache.miguvideo.com
+0.0.0.0 ggv.miguvideo.com
+0.0.0.0 ggx01.miguvideo.com
+# 快手广告
+0.0.0.0 gdfp.gifshow.com
+0.0.0.0 gdfpsec.gifshow.com
+0.0.0.0 gdfpsec.ksapisrv.com
+# ===== 待确认域（2026-08-03 用户确认全拦；个别可能误伤功能，出问题先查这些） =====
+0.0.0.0 0kkkkkt.com
+0.0.0.0 tfogc.com
+0.0.0.0 qchannel03.cn
+0.0.0.0 x.adk.cn
+0.0.0.0 in-neo.cn
+0.0.0.0 ndcpp.com
+0.0.0.0 a.video.qq.com
+0.0.0.0 absod.video.iqiyi.com
+0.0.0.0 opportunarch.iqiyi.com
+0.0.0.0 data.ab.qq.com
+0.0.0.0 pkoplink.com
+0.0.0.0 xxpkg.com
+0.0.0.0 kspkg.com
+0.0.0.0 inkuai.com
+0.0.0.0 wskwai.com
+0.0.0.0 wsbkwai.com
+0.0.0.0 wsukwai.com
+0.0.0.0 ndcjl.com
+0.0.0.0 yyzqta.com
+0.0.0.0 dmgyta.com
+0.0.0.0 jsonsilo.com
+0.0.0.0 applk.cn
+0.0.0.0 hnwzinfo.com
+0.0.0.0 gxycwy.cn
