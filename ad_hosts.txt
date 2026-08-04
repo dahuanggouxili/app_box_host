@@ -1,7 +1,7 @@
 # PrivacyFirewall 广告网络黑名单（国内 + 海外合并）
 # Format: 0.0.0.0 domain
 # Sources: 自维护合并；覆盖国内主流 + 海外主流广告网络（保守）
-# version: 20260804-9
+# version: 20260804-10
 
 
 # ===== 字节跳动 / ByteDance (穿山甲 Pangle) =====
@@ -171,7 +171,6 @@
 0.0.0.0 zhanzhang.toutiao.com
 
 # ===== 腾讯广点通 / Tencent GDT =====
-0.0.0.0 3g.qq.com
 0.0.0.0 ad.qq.com
 0.0.0.0 ads.qq.com
 0.0.0.0 adsfile.qq.com
@@ -10783,7 +10782,6 @@
 0.0.0.0 activemeter.com
 0.0.0.0 activemetering.com
 0.0.0.0 activeprospects.com
-0.0.0.0 activeqq.3g.qq.com
 0.0.0.0 actives.youku.com
 0.0.0.0 activisionnews.com
 0.0.0.0 activity-flow.vtex.com
@@ -17443,7 +17441,6 @@
 0.0.0.0 appcast.io
 0.0.0.0 appcdn.wapx.cn
 0.0.0.0 appcdn.wapx.com
-0.0.0.0 appcfg.v.qq.com
 0.0.0.0 appchannel.html5.qq.com
 0.0.0.0 appclick.co
 0.0.0.0 appclick.rqmob.com
@@ -27446,7 +27443,6 @@
 0.0.0.0 config2.mparticle.com
 0.0.0.0 configchain.com
 0.0.0.0 configcontrol.com
-0.0.0.0 configsvr.msf.3g.qq.com
 0.0.0.0 configure.adlermode.com
 0.0.0.0 configure.rayjump.com
 0.0.0.0 confinecloakroomnew.com
@@ -47256,7 +47252,6 @@
 0.0.0.0 hd.pe.fr
 0.0.0.0 hd.ylddq.com
 0.0.0.0 hd100546c.com
-0.0.0.0 hd2.3g.qq.com
 0.0.0.0 hd2o34yu8.com
 0.0.0.0 hda.maxli.cn
 0.0.0.0 hda.watchtimes.com.cn
@@ -51509,7 +51504,6 @@
 0.0.0.0 info-fsi.stanford.edu
 0.0.0.0 info-pacific.marsh.com
 0.0.0.0 info-trek.actonservice.com
-0.0.0.0 info.3g.qq.com
 0.0.0.0 info.aacargo.com
 0.0.0.0 info.aag.com
 0.0.0.0 info.abadiscount.org
@@ -57784,7 +57778,6 @@
 0.0.0.0 lcs.dev.surepush.cn
 0.0.0.0 lcs.naver.com
 0.0.0.0 lcscompanies.lcsnet.com
-0.0.0.0 lcsdk.3g.qq.com
 0.0.0.0 lcsirlytsncmg.space
 0.0.0.0 lcsopa.onamae.com
 0.0.0.0 lcsydsxnlriae.space
@@ -64462,8 +64455,6 @@
 0.0.0.0 mascaraowners.com
 0.0.0.0 mascarapersonality.com
 0.0.0.0 masculine-employment.com
-0.0.0.0 masdk.3g.qq.com
-0.0.0.0 masdkv6.3g.qq.com
 0.0.0.0 masdpanalytics.azureedge.net
 0.0.0.0 masdsmt.com
 0.0.0.0 maserati.info
@@ -64635,7 +64626,6 @@
 0.0.0.0 mazincike.com
 0.0.0.0 maznsshrpkind.space
 0.0.0.0 mazrwvacfmpdq.space
-0.0.0.0 mazu.3g.qq.com
 0.0.0.0 mazu.m.qq.com
 0.0.0.0 mb-cdn.stocard.de
 0.0.0.0 mb-npltfpro.com
@@ -73387,7 +73377,6 @@
 0.0.0.0 openmindedaching.com
 0.0.0.0 openmindedpassengerserr.com
 0.0.0.0 openmindter.com
-0.0.0.0 openmsf.3g.qq.com
 0.0.0.0 openrcv.baidu.com
 0.0.0.0 openrtb-banner.com
 0.0.0.0 openrtb.cootlogix.com
@@ -76936,7 +76925,6 @@
 0.0.0.0 pmh.souid.com
 0.0.0.0 pmhltxilxakly.site
 0.0.0.0 pmi.flowplayer.com
-0.0.0.0 pmir.3g.qq.com
 0.0.0.0 pmisfoohysory.website
 0.0.0.0 pmjlllngnazvr.online
 0.0.0.0 pmlfclxqicihz.website
@@ -79296,7 +79284,6 @@
 0.0.0.0 qanwfsrmvcoco.online
 0.0.0.0 qaolczdbfnsec.online
 0.0.0.0 qapm.baidu.com
-0.0.0.0 qappcenterv6.3g.qq.com
 0.0.0.0 qaqvec.icu
 0.0.0.0 qargdofuazoiz.site
 0.0.0.0 qasdszuhgnhtl.space
@@ -100358,7 +100345,6 @@
 0.0.0.0 tooledundon.com
 0.0.0.0 toolforthought.com
 0.0.0.0 toolpreoccupy.com
-0.0.0.0 tools.3g.qq.com
 0.0.0.0 tools.bongacams.com
 0.0.0.0 tools.net-parade.it
 0.0.0.0 tools.ricoh.co.uk
