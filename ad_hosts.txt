@@ -1,7 +1,7 @@
 # PrivacyFirewall 广告网络黑名单（国内 + 海外合并）
 # Format: 0.0.0.0 domain
 # Sources: 自维护合并；覆盖国内主流 + 海外主流广告网络（保守）
-# version: 20260806-1
+# version: 20260807-1
 
 
 
@@ -99165,7 +99165,6 @@
 0.0.0.0 t0cv7pmo2y.com
 0.0.0.0 t0y.toyota.ca
 0.0.0.0 t1.51maiwanju.com
-0.0.0.0 t1.58cdn.com.cn
 0.0.0.0 t1.612.com
 0.0.0.0 t1.benefits.tops.co.th
 0.0.0.0 t1.cdn.xiangha.com
@@ -99183,7 +99182,6 @@
 0.0.0.0 t1n.cn
 0.0.0.0 t1thmtn5.xyz
 0.0.0.0 t2.51maiwanju.com
-0.0.0.0 t2.58cdn.com.cn
 0.0.0.0 t2.aboutyou.de
 0.0.0.0 t2.click.subway.com
 0.0.0.0 t2.hulu.com
@@ -99198,7 +99196,6 @@
 0.0.0.0 t2lgo.com
 0.0.0.0 t2q0gv7zjg.com
 0.0.0.0 t3.51maiwanju.com
-0.0.0.0 t3.58cdn.com.cn
 0.0.0.0 t3.wubiinlee.com
 0.0.0.0 t3e.firstchoice.co.uk
 0.0.0.0 t3nlink.com
@@ -118316,7 +118313,6 @@
 0.0.0.0 zzmqptxatuosm.space
 0.0.0.0 zzoostbkvfpoy.online
 0.0.0.0 zzpgiredutflq.space
-0.0.0.0 zzpush.58.com
 0.0.0.0 zzqyxd.smartpozyczka.pl
 0.0.0.0 zzsdtzb.com
 0.0.0.0 zzsfgdah.com
